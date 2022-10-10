@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Receitas</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/pages/home.min.css" rel="stylesheet">
+</head>
+<body>
+  <header id="header" class="page-home">
+    <div class="container">
+      <div class="row">
+        <div class="col col-desktop-3 col-6">
+          <a href="index.html">
+          </a>
+        </div>
+        <div class="col col-desktop-9 col-6">
+          <nav>
+            <ul>
+              <li><a href="index.html" class="active">Home</a></li>
+              <li><a href="adicionar.html">Adicionar receitas</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-desktop-12 title">
+          <h1>Delícias na Cozinha</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section id="how-it-work" class="section section-center">
+      <h2>Receitas disponíveis</h2>
+      <h3 class="subtitle">Aqui você encontra receitas para cada ocasião do seu dia</h3>
+
+      <div class="container">
+        <div class="row">
+
+          <div class="col col-desktop-4">
+            <div id="panqueca">
+              <img  src="images/Receitas/panqueca.png.png" alt="" width="120px" height="120px">
+            </div>
+            <h3>Panqueca</h3>
+            <div id="card">
+            </div>
+            <button id="button1" onclick="criarCard();">ver receita</button>
+            <!--button invisivel-->
+            <button id="inv1" onclick="sumirCard();" style="display: none;">Minimizar</button>
+            </div>
+           <!--Criar um card dinamicamente ao clicar em ver receita-->
+           
+
+          <div class="col col-desktop-4">
+            <div id="bolo de Laranja">
+              <img  src="images/Receitas/bolodelaranja.png" alt="" width="120px" height="120px">
+            </div>
+            <h3>Bolo de Laranja</h3>
+            <div id="card2">
+            </div>
+            <button id="button2" onclick="criarCard2();">ver receita</button>
+            <button id="inv2" onclick="sumirCard2();" style="display: none;">Minimizar</button>
+          </div>
+
+          <div class="col col-desktop-4">
+            <div id="bife a milanessa">
+              <img  src="images/Receitas/bife-a-milanesa.jpg" alt="" width="120px" height="120px">
+            </div>
+            <h3>Bife á milanesa</h3>
+            <div id="card3">
+            </div>
+            <button id="button3" onclick="criarCard3();">ver receita</button>
+            <button id="inv3" onclick="sumirCard3();" style="display: none;">Minimizar</button>
+          </div>
+
+          
+          <div class="col col-desktop-4">
+            <div id="frango a parmegiana">
+              <img  src="images/Receitas/almoco.png" alt="" width="120px" height="120px">
+            </div>
+            <h3>frango a parmegiana</h3>
+            <div id="card4">
+            </div>
+            <button id="button4" onclick="criarCard4();">ver receita</button>
+            <button id="inv4" onclick="sumirCard4();" style="display: none;">Minimizar</button>
+          </div>
+
+
+          
+          <div class="col col-desktop-4">
+            <div id="baiao de dois">
+              <img  src="images/Receitas/baiaodedois.jpg" alt="" width="120px" height="120px">
+            </div>
+            <h3>Baião de dois</h3>
+            <div id="card5">
+            </div>
+            <button id="button5" onclick="criarCard5();">ver receita</button>
+            <button id="inv5" onclick="sumirCard5();" style="display: none;">Minimizar</button>
+          </div>
+
+          
+          <div class="col col-desktop-4">
+            <div id="cuzcuz">
+              <img  src="images/Receitas/cuscuz-de-frigideira-com-ovo.jpg" alt="" width="120px" height="120px">
+            </div>
+            <h3>Cuscuz de frigideira com ovo</h3>
+            <div id="card6">
+            </div>
+            <button id="button6" onclick="criarCard6();">ver receita</button>
+            <button id="inv6" onclick="sumirCard6();" style="display: none;">Minimizar</button>
+          </div>
+
+        </div>
+        
+        <!--fim do container-->
+      </div>
+      
+
+    </section>
+    <section id="team" class="section section-center">
+      <h2>receitas de amigos</h2>
+      <p class="subtitle">Essas receitas foram compartilhadas por amigos.</p>
+      <div class="container">
+        <div class="row">
+          <div class="col col-offset-desktop-1 col-desktop-2">
+            <div class="img-box-round"><img src="images/team/amanda.png" alt="" width="130"></div>
+            <p class="img-box-label">Amanda Carla</p>
+            <p>Cozinheiro amadora so sabe fazer miojo e comidas rapidas nivel 1</p>
+          </div>
+          <div class="col col-desktop-2">
+            <div class="img-box-round"><img src="images/team/david.png" alt="" width="130"></div>
+            <p class="img-box-label">Isley David</p>
+            <p>cozinehiro experiente sabe fazer receitas nivel 5</p>
+          </div>
+          <div class="col col-desktop-2">
+            <div class="img-box-round"><img src="images/team/giuliano.png" alt="" width="130"></div>
+            <p class="img-box-label">Giuliano Carrazoni</p>
+            <p>Cozinheiro cozinheiro amador porem se garante em algumas receitas nivel 2</p>
+          </div>
+          <div class="col col-desktop-2">
+            <div class="img-box-round"><img src="images/team//heitor.png" alt="" width="130"></div>
+            <p class="img-box-label">Heitor Vilar</p>
+            <p>Cozinheiro novo recomende receitas par Heitor nivel 1</p>
+          </div>
+          <div class="col col-desktop-2">
+            <div class="img-box-round"><img src="images/team/yan.png" alt="" width="130"></div>
+            <p class="img-box-label">Yan Fabber</p>
+            <p>cozinheiro com bastante experiencia! gosta de receias com nivel de dificuldade media nivel 4</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col col-offset-desktop-1 col-desktop-3">
+          <h3>Aplicação Web desenvolvida para fins Academicos.</h3>
+        </div>
+        <div class="col col-offset-desktop-1 col-desktop-2 col-2">
+          <h3>Desenvolvedores</h3>
+          <nav>
+            <ul>
+              <li>Amanda Carla</li>
+              <li>Giuliano Carrazoni</li>
+              <li>Heitor Vilar </li>
+              <li>Isley David </li>
+              <li>Yan Fabber </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div id="copyright">
+    &copy; Receitas 2022
+  </div>
+  <script src="./js/sscript.js"></script>
+  <script src="./js/receitas.js"></script>
+</body>
+</html>
